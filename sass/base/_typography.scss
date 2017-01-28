@@ -1,0 +1,322 @@
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu{
+    font-size: 14px;
+    font-weight: 400;
+    @media (max-width: 500px) {
+        font-size: 12px;
+    }
+}
+
+.number{
+    font-size: 15px;
+    font-weight: 400;
+    @media (max-width: 500px) {
+        font-size: 12px;
+    }
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.discription{
+    font-family: 'Domine', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn{
+    a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+
+.btn-full{
+    a{
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+.title-wrap{
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+}
+
+
+.btn-full{
+    a{
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .btn-full{
+        a{
+            font-size: 10px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 499px){
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .title-wrap{
+        .title{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .discription{
+            font-family: 'Domine', serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+}
+
+section#our-blog{
+    .data{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .discription{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    @media (max-width: 850px){
+        data{
+            font-size: 13px;
+
+        }
+        .title{
+            font-size: 16px;
+
+        }
+        .discription{
+            font-size: 13px;
+
+        }
+    }
+}
+
+
+
+
+p{
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.orange-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.projects-title-wrap, .services-block-item{
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .discription{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    @media (max-width:764px){
+        .title{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .discription{
+            font-family: 'Domine', serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+section#testimonials{
+    p{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .discription{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+
+
+@media screen and (max-width: 890px){
+    .title{
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 818px){
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    h1{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .black_box{
+        p{
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .btn{
+        a{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+footer{
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .discription{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    ul{
+        span{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        li{
+            a{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+    form{
+        input {
+            color: #5e5e5e;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        button{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        @media (min-width: 320px) and (max-width: 500px) {
+            input{
+                color: #5e5e5e;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 11px;
+                font-weight: 400;
+
+            }
+            button{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .copyright{
+        font-family: 'Domine', serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .footer-social-menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+}
+
+section#quick-contact{
+    .title{
+        a {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}

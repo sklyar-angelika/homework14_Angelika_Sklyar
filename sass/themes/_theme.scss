@@ -1,0 +1,264 @@
+header{
+    color: white;
+    a {
+        color: white;
+    }
+    .active, a:hover {
+        color: $gold-color;
+    }
+
+    i {
+        color: white;
+        background-color: #03b6e7;
+    }
+    .flexslider{
+        a{
+            background-color: #03b6e7;
+        }
+        a:hover{
+            background-color: $gold-color;
+        }
+        .active{
+            background-color: $gold-color;
+        }
+
+        .title {
+            color: white;
+        }
+
+        .flex-control-paging li a {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        .flex-control-paging li a:hover {
+            border: 2px solid $green-color;
+            background: url("../images/carousel-active.png") center no-repeat;
+        }
+        .flex-control-paging li a.flex-active {
+            background: url("../images/carousel-active.png") center no-repeat;
+            border: 2px solid $green-color;
+        }
+    }
+}
+
+
+
+.btn-full{
+    a{
+        color: white;
+        background-color: $green-color;
+    }
+}
+
+
+.btn{
+    a{
+        color: white;
+        background-color: $green-color;
+    }
+}
+
+
+.discription{
+    color: $discription-color
+}
+
+
+h3{
+    color: $title-color
+}
+
+section#our-features{
+    background-color: #e7eff1;
+    a:hover {
+        color: $gold-color;
+    }
+
+    .black_box{
+        background-color: #565d5d;
+        :hover{
+            color: white;
+        }
+    }
+}
+
+
+.title {
+    a {
+        color: $title-color
+    }
+}
+
+.projects-first-block-item{
+    background-color: $gold-color;
+}
+
+.orange-btn{
+    border: 2px solid $gold-color;
+    a{
+        color: white;
+    }
+    :hover{
+        color: $gold-color;
+    }
+}
+
+.projects-title-wrap{
+    color: white;
+    .discription{
+        color: white;
+    }
+        .title{
+            a{
+                color: white;
+            }
+        }
+    }
+
+.projects-second-block-item{
+    .projects-title-wrap{
+        background-color: white;
+        border: 1px solid #dae5e8;
+        .title {
+            a {
+                color: $title-color
+            }
+        }
+        .discription{
+            color: $discription-color
+        }
+    }
+}
+
+section#services{
+    background-color: #fffaf3;
+    .title{
+        :hover {
+            color: $gold-color;
+        }
+    }
+}
+
+section#testimonials{
+    background-color: #03b6e7;
+    h3{
+        color: white;
+    }
+    p {
+        color: #ddf8ff;
+    }
+    .title{
+        color: white;
+    }
+    .discription{
+
+        color: #ddf8ff;
+    }
+}
+
+section#our-blog {
+    background-color: #e7eff1;
+    .data{
+        color: $title-color
+    }
+    .our-block-first-item {
+        background-color: white;
+        box-shadow: 0 0 70px #d4e2e5;
+        border-top: 3px solid $green-color;
+        .title{
+
+            a{
+                color: $title-color
+            }
+            :hover {
+                color: $green-color;
+            }
+        }
+
+    }
+    .our-block-second-item {
+        background-color: white;
+        box-shadow: 0 0 70px #d4e2e5;
+        border-top: 3px solid $gold-color;
+        .title{
+            a{
+                color:$title-color
+            }
+            :hover {
+                color: $gold-color;
+            }
+        }
+    }
+}
+
+.quick-contact-item {
+    border: 1px solid #e1eaec;
+    .title-wrap {
+        .title{
+            a{
+                color: $title-color
+            }
+            :hover {
+                color: $gold-color;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #262829;
+    span{
+        color: #e1e1e1;
+        }
+    li{
+        a{
+            color: $discription-color
+        }
+    }
+    .news-letter-wrap {
+        .title {
+            color: #e1e1e1;
+        }
+    }
+
+    input{
+        background-color: #323334;
+        color: #5e5e5e;
+    }
+    ::-webkit-input-placeholder {color:#5e5e5e;}
+    ::-moz-placeholder          {color:#5e5e5e;}
+    :-moz-placeholder           {color:#5e5e5e;}
+    :-ms-input-placeholder      {color:#5e5e5e;}
+    button{
+        color: white;
+        background-color: $green-color;
+    }
+
+
+    .social {
+        border-top: 1px solid #323334;
+        .copyright{
+            color: $discription-color
+        }
+        ul {
+            .facebook{
+                color: #385da5;
+            }
+            .twitter{
+                color: #00b5da;
+
+            }
+            .instagram{
+                color: #d4c5a8;
+
+            }
+            .linkedin{
+                color: #1883bb;
+
+            }
+            .google{
+                color: #e4463b;
+            }
+        }
+    }
+}
